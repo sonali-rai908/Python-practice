@@ -1,4 +1,4 @@
-two types of function are there :
+'''two types of function are there :
 1- built in functions:
                      already provided by the python
                      print()
@@ -12,6 +12,7 @@ two types of function are there :
 2- user defined function:
                          function that are created by the user
                          def square(n):
-                            return n*2
+                              return n*2
 
                          print(square(2))   
+'''

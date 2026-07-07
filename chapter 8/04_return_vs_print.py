@@ -11,3 +11,5 @@ def add(a,b):
 
 result=add(3,5)
 print("Addition= ",result)    
+
+#using return lets you store or reuse the result later

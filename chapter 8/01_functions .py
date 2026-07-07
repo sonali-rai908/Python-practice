@@ -1,6 +1,6 @@
-# Functions in pyhton are blocks of reusable code that perform a specific task 
-# Instead of writing the same code again and again ,you can write it once inside a function and call it whenever needed
-# When program gets bigger i size we use functions
+'''Functions in pyhton are blocks of reusable code that perform a specific task 
+    Instead of writing the same code again and again ,you can write it once inside a function and call it whenever needed
+     When program gets bigger i size we use functions'''
 
 # Function without parameters
 def greet():
@@ -27,7 +27,7 @@ result=add(a,b)
 print(result)
 
 
-
+#taking input inside the function
 def avg():
     a=int(input("Enter a number: "))
     b=int(input("Enter second number: "))

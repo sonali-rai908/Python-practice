@@ -21,4 +21,4 @@ def greet(name="Freind"): # default value of name will be freind
     print("Hello! ", name)
 
 greet()    #as nothing mentioned here then it will print the default value
-greet("Sonali")
+greet("Sonali")   #as we mention something then it will print this
