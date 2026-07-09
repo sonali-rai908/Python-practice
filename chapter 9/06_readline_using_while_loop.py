@@ -5,4 +5,4 @@ line=file.readline()
 while(line != ""):
     print(file.readline())
 
-file.close    
+file.close()
