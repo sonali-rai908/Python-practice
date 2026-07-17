@@ -9,3 +9,10 @@ file.close()
 ''' if the file which you mentioned in open()
   does not exist - pyhton creates it
   if exist - all old data is erased'''
+
+#writelines()
+file = open("data.txt", "w")  # writes multiple lines from a list
+
+file.writelines(["Apple\n", "Banana\n", "Mango"])
+
+file.close()

@@ -3,6 +3,7 @@ file=open("file.txt","r")
 line=file.readline()
 
 while(line != ""):
-    print(file.readline())
+    print(line)
+    line=file.readline()
 
 file.close()
