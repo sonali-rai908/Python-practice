@@ -1,0 +1,97 @@
+# pip freeze
+
+## What is `pip freeze`?
+
+`pip freeze` displays all installed Python packages along with their exact versions in the current environment.
+
+**Hindi:**  
+Current Virtual Environment me installed sabhi packages aur unke exact versions ki list dikhata hai.
+
+---
+
+## Syntax
+
+```bash
+pip freeze
+```
+
+---
+
+## Save Installed Packages
+
+```bash
+pip freeze > requirements.txt
+```
+
+Creates a `requirements.txt` file containing all installed packages and their versions.
+
+Example:
+
+```text
+numpy==2.3.1
+pandas==2.3.0
+```
+
+---
+
+## Install Packages from requirements.txt
+
+```bash
+pip install -r requirements.txt
+```
+
+Installs all packages listed in the `requirements.txt` file.
+
+---
+
+## Why use `pip freeze`?
+
+- Lists all installed packages with exact versions.
+- Helps recreate the same project environment on another computer.
+- Makes sharing Python projects easy.
+- Ensures everyone uses the same package versions.
+
+---
+
+## Workflow
+
+```text
+pip install packages
+        ↓
+pip freeze > requirements.txt
+        ↓
+Share the project
+        ↓
+pip install -r requirements.txt
+```
+
+---
+
+## Difference
+
+| Command | Purpose |
+|---------|---------|
+| `pip list` | Shows installed packages in table format. |
+| `pip freeze` | Shows packages in `package==version` format. |
+
+---
+
+### One-Line Revision
+
+**English:**  
+`pip freeze` lists all installed packages with their exact versions and is mainly used to create a `requirements.txt` file.
+
+**Hindi:**  
+`pip freeze` installed packages aur unke exact versions ki list dikhata hai aur `requirements.txt` banane ke liye use hota hai.
+
+#pip freeze
+        ↓
+Shows installed packages
+
+pip freeze > requirements.txt
+        ↓
+Creates requirements.txt
+
+pip install -r requirements.txt
+        ↓
+Installs all packages from the file
